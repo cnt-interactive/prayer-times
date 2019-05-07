@@ -1,5 +1,5 @@
 {
-    "name": "CntInteractive/prayer-times",
+    "name": "cntinteractive/prayer-times",
     "description": "A PHP package to calculate prayer times",
     "type": "library",
     "require": {
