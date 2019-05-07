@@ -1,12 +1,12 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 /**
  * Class HighLatitudeRuleNotSupportedException
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  */
 class HighLatitudeRuleNotSupportedException extends \Exception
 {

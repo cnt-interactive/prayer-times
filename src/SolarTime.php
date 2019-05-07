@@ -6,7 +6,7 @@
  * Time: 17:50
  */
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 use Carbon\Carbon;
@@ -14,7 +14,7 @@ use Carbon\Carbon;
 /**
  * Class SolarTime
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  *
  * @property-read Carbon           $date
  * @property-read Coordinates      $coordinates

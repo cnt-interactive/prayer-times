@@ -1,6 +1,6 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 /**

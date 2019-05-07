@@ -6,7 +6,7 @@
  * Time: 16:02
  */
 
-namespace GeniusTS\PrayerTimes\Methods;
+namespace CntInteractive\PrayerTimes\Methods;
 
 
 class World extends Method

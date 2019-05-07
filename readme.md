@@ -7,21 +7,21 @@ This project was inspired from [batoulapps/Adhan](https://github.com/batoulapps/
 ## Installation
 
 ```bash
-	composer require geniusts/prayer-times
+	composer require CntInteractive/prayer-times
 ```
 
 ## Usage
 
 ```php
-    use \GeniusTS\PrayerTimes\Prayer;
-    use \GeniusTS\PrayerTimes\Coordinates;
+    use \CntInteractive\PrayerTimes\Prayer;
+    use \CntInteractive\PrayerTimes\Coordinates;
 
     $prayer = new Prayer(new Coordinates($longitude, $latitude));
     // Or
     $prayer = new Prayer();
     $prayer->setCoordinates($longitude, $latitude);
 
-    // Return an \GeniusTS\PrayerTimes\Times instance
+    // Return an \CntInteractive\PrayerTimes\Times instance
     $times = $prayer->times('2017-5-9');
     $times->setTimeZone(+3);
 
@@ -35,7 +35,7 @@ This project was inspired from [batoulapps/Adhan](https://github.com/batoulapps/
 
 ```php
     // change instance value
-    use \GeniusTS\PrayerTimes\Methods\World;
+    use \CntInteractive\PrayerTimes\Methods\World;
 
     $prayer->setMethod(new World);
     // Or

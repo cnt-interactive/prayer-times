@@ -1,6 +1,6 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 use Carbon\Carbon;
@@ -9,7 +9,7 @@ use InvalidArgumentException;
 /**
  * Class Times
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  *
  * @property-read \Carbon\Carbon fajr
  * @property-read \Carbon\Carbon sunrise

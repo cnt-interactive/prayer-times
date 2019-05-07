@@ -1,12 +1,12 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 /**
  * Class MathhabNotSupportedException
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  */
 class MathhabNotSupportedException extends \Exception
 {

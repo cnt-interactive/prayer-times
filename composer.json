@@ -7,10 +7,6 @@
         "nesbot/carbon": "^1.22"
     },
     "license": "MIT",
-    "authors": [{
-        "name": "Abdul-Kader Zein-Eddin",
-        "email": "aboudeh1987@gmail.com"
-    }],
     "autoload": {
         "psr-4": {
             "cnt-interactive\\PrayerTimes\\": "src/"

@@ -1,32 +1,32 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 use Carbon\Carbon;
-use GeniusTS\PrayerTimes\Methods\Gulf;
-use GeniusTS\PrayerTimes\Methods\World;
-use GeniusTS\PrayerTimes\Methods\Qatar;
-use GeniusTS\PrayerTimes\Methods\France;
-use GeniusTS\PrayerTimes\Methods\UmQura;
-use GeniusTS\PrayerTimes\Methods\Method;
-use GeniusTS\PrayerTimes\Methods\Custom;
-use GeniusTS\PrayerTimes\Methods\Kuwait;
-use GeniusTS\PrayerTimes\Methods\Karachi;
-use GeniusTS\PrayerTimes\Methods\Egyptian;
-use GeniusTS\PrayerTimes\Methods\Singapore;
-use GeniusTS\PrayerTimes\Methods\NorthAmerica;
-use GeniusTS\PrayerTimes\Methods\Uoif;
-use GeniusTS\PrayerTimes\Methods\Luip;
-use GeniusTS\PrayerTimes\Methods\Skka;
-use GeniusTS\PrayerTimes\Methods\Fi;
-use GeniusTS\PrayerTimes\Methods\Egyptbis;
-use GeniusTS\PrayerTimes\Methods\GrandeMosqueeParis;
+use CntInteractive\PrayerTimes\Methods\Gulf;
+use CntInteractive\PrayerTimes\Methods\World;
+use CntInteractive\PrayerTimes\Methods\Qatar;
+use CntInteractive\PrayerTimes\Methods\France;
+use CntInteractive\PrayerTimes\Methods\UmQura;
+use CntInteractive\PrayerTimes\Methods\Method;
+use CntInteractive\PrayerTimes\Methods\Custom;
+use CntInteractive\PrayerTimes\Methods\Kuwait;
+use CntInteractive\PrayerTimes\Methods\Karachi;
+use CntInteractive\PrayerTimes\Methods\Egyptian;
+use CntInteractive\PrayerTimes\Methods\Singapore;
+use CntInteractive\PrayerTimes\Methods\NorthAmerica;
+use CntInteractive\PrayerTimes\Methods\Uoif;
+use CntInteractive\PrayerTimes\Methods\Luip;
+use CntInteractive\PrayerTimes\Methods\Skka;
+use CntInteractive\PrayerTimes\Methods\Fi;
+use CntInteractive\PrayerTimes\Methods\Egyptbis;
+use CntInteractive\PrayerTimes\Methods\GrandeMosqueeParis;
 
 /**
  * Class Prayer
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  */
 class Prayer
 {
@@ -114,7 +114,7 @@ class Prayer
     /**
      * default method class name
      *
-     * @var \GeniusTS\PrayerTimes\Methods\Method
+     * @var \CntInteractive\PrayerTimes\Methods\Method
      */
     protected static $default_method;
 
@@ -147,7 +147,7 @@ class Prayer
     ];
 
     /**
-     * @var \GeniusTS\PrayerTimes\Methods\Method
+     * @var \CntInteractive\PrayerTimes\Methods\Method
      */
     protected $method;
 
@@ -182,7 +182,7 @@ class Prayer
     /**
      * position
      *
-     * @var \GeniusTS\PrayerTimes\Coordinates
+     * @var \CntInteractive\PrayerTimes\Coordinates
      */
     protected $coordinates;
 
@@ -191,7 +191,7 @@ class Prayer
      *
      * @param string $method
      *
-     * @throws \GeniusTS\PrayerTimes\MethodNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\MethodNotSupportedException
      */
     public static function setDefaultMethodClass(string $method)
     {
@@ -208,7 +208,7 @@ class Prayer
      *
      * @param mixed $method
      *
-     * @throws \GeniusTS\PrayerTimes\MethodNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\MethodNotSupportedException
      */
     public static function setDefaultMethod($method)
     {
@@ -260,7 +260,7 @@ class Prayer
     /**
      * Prayer constructor.
      *
-     * @param \GeniusTS\PrayerTimes\Coordinates|null $coordinates
+     * @param \CntInteractive\PrayerTimes\Coordinates|null $coordinates
      */
     public function __construct(Coordinates $coordinates = null)
     {
@@ -298,7 +298,7 @@ class Prayer
      * @param int $value
      *
      * @return $this
-     * @throws \GeniusTS\PrayerTimes\MathhabNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\MathhabNotSupportedException
      */
     public function setMathhab(int $value)
     {
@@ -313,7 +313,7 @@ class Prayer
      * @param int $value
      *
      * @return $this
-     * @throws \GeniusTS\PrayerTimes\HighLatitudeRuleNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\HighLatitudeRuleNotSupportedException
      */
     public function setHighLatitudeRule(int $value)
     {
@@ -354,7 +354,7 @@ class Prayer
      * @param mixed $method
      *
      * @return $this
-     * @throws \GeniusTS\PrayerTimes\MethodNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\MethodNotSupportedException
      */
     public function setMethod($method)
     {
@@ -368,7 +368,7 @@ class Prayer
      *
      * @param mixed $date
      *
-     * @return \GeniusTS\PrayerTimes\Times
+     * @return \CntInteractive\PrayerTimes\Times
      */
     public function times($date)
     {
@@ -433,7 +433,7 @@ class Prayer
     /**
      * get calculation method
      *
-     * @return \GeniusTS\PrayerTimes\Methods\Method
+     * @return \CntInteractive\PrayerTimes\Methods\Method
      */
     protected function method()
     {
@@ -524,7 +524,7 @@ class Prayer
      * @param $method
      *
      * @return mixed
-     * @throws \GeniusTS\PrayerTimes\MethodNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\MethodNotSupportedException
      */
     protected static function checkMethod($method)
     {
@@ -547,7 +547,7 @@ class Prayer
      * @param int $mathhab
      *
      * @return int
-     * @throws \GeniusTS\PrayerTimes\MathhabNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\MathhabNotSupportedException
      */
     protected static function checkMathhab(int $mathhab)
     {
@@ -565,7 +565,7 @@ class Prayer
      * @param int $value
      *
      * @return int
-     * @throws \GeniusTS\PrayerTimes\HighLatitudeRuleNotSupportedException
+     * @throws \CntInteractive\PrayerTimes\HighLatitudeRuleNotSupportedException
      */
     protected static function checkHighLatitudeRule(int $value)
     {

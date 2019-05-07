@@ -1,12 +1,12 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 /**
  * Class Coordinates
  *
- * @package       GeniusTS\PrayerTimes
+ * @package       CntInteractive\PrayerTimes
  *
  * @property-read float $longitude
  * @property-read float $latitude

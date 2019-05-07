@@ -1,12 +1,12 @@
 <?php
 
-namespace GeniusTS\PrayerTimes\Methods;
+namespace CntInteractive\PrayerTimes\Methods;
 
 
 /**
  * Class Method
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  */
 abstract class Method
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace GeniusTS\PrayerTimes\Methods;
+namespace CntInteractive\PrayerTimes\Methods;
 
 
 class Skka extends Method

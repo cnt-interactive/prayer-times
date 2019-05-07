@@ -1,6 +1,6 @@
 <?php
 
-namespace GeniusTS\PrayerTimes;
+namespace CntInteractive\PrayerTimes;
 
 
 use Carbon\Carbon;
@@ -8,7 +8,7 @@ use Carbon\Carbon;
 /**
  * Class Astronomical
  *
- * @package GeniusTS\PrayerTimes
+ * @package CntInteractive\PrayerTimes
  */
 class Astronomical
 {
