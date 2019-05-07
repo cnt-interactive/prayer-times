@@ -1,5 +1,5 @@
 {
-    "name": "geniusts/prayer-times",
+    "name": "cnt-interactive/prayer-times",
     "description": "A PHP package to calculate prayer times",
     "type": "library",
     "require": {
@@ -7,15 +7,13 @@
         "nesbot/carbon": "^1.22"
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Abdul-Kader Zein-Eddin",
-            "email": "aboudeh1987@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Abdul-Kader Zein-Eddin",
+        "email": "aboudeh1987@gmail.com"
+    }],
     "autoload": {
         "psr-4": {
-            "GeniusTS\\PrayerTimes\\": "src/"
+            "cnt-interactive\\PrayerTimes\\": "src/"
         }
     }
 }
