@@ -1,5 +1,5 @@
 {
-    "name": "cnt-interactive/prayer-times",
+    "name": "CntInteractive/prayer-times",
     "description": "A PHP package to calculate prayer times",
     "type": "library",
     "require": {
@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "cnt-interactive\\PrayerTimes\\": "src/"
+            "CntInteractive\\PrayerTimes\\": "src/"
         }
     }
 }
