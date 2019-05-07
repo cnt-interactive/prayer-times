@@ -16,6 +16,12 @@ use GeniusTS\PrayerTimes\Methods\Karachi;
 use GeniusTS\PrayerTimes\Methods\Egyptian;
 use GeniusTS\PrayerTimes\Methods\Singapore;
 use GeniusTS\PrayerTimes\Methods\NorthAmerica;
+use GeniusTS\PrayerTimes\Methods\Uoif;
+use GeniusTS\PrayerTimes\Methods\Luip;
+use GeniusTS\PrayerTimes\Methods\Skka;
+use GeniusTS\PrayerTimes\Methods\Fi;
+use GeniusTS\PrayerTimes\Methods\Egyptbis;
+use GeniusTS\PrayerTimes\Methods\GrandeMosqueeParis;
 
 /**
  * Class Prayer
@@ -51,6 +57,12 @@ class Prayer
     const METHOD_GULF_REGION = 'gulf';
     const METHOD_KUWAIT = 'kuwait';
     const METHOD_QATAR = 'qatar';
+    const METHOD_UOIF = 'uoif';
+    const METHOD_LUIP = 'luip';
+    const METHOD_SKKA = 'skka';
+    const METHOD_FI = 'fi';
+    const METHOD_EGYPTBIS = 'egyptbis';
+    const METHOD_GRANDE_MOSQUE_PARIS = 'grandeMosqueeParis';
     const METHOD_CUSTOM = 'custom';
 
     /**
@@ -69,6 +81,12 @@ class Prayer
         'qatar'         => Qatar::class,
         'france'        => France::class,
         'singapore'     => Singapore::class,
+        'uoif'          => Uoif::class,
+        'luip'          => Luip::class,
+        'skka'          => Skka::class,
+        'fi'            => Fi::class,
+        'egyptbis'      => Egyptbis::class,
+        'grandeMosqueeParis'      => GrandeMosqueeParis::class, /* This seems like I don't know :( */
         'custom'        => Custom::class,
     ];
 
